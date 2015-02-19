@@ -59,11 +59,32 @@ h2{
     border-bottom: 2px solid #E97F05;
 }
 
-h2, h3, h4{
+h1, h2, h3, h4{
     color: #E97F05;
 }
 
-img{
-    /*width: 50px;
-    height: auto;*/
+.logo{
+    width: 447px;
+    display: block;
+    margin: 0px auto;
+    
+}
+
+li img{
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin: 3px;
+    border: 2px solid blue;
+    padding: 5px;
+    background-color: grey;
+}
+
+.cantantes{
+    list-style-type: none;
+}
+
+.lugar{
+    color: grey;
+    text-transform: uppercase;
 }
