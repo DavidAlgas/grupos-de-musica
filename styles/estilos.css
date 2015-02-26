@@ -52,6 +52,7 @@ nav a:hover{
 h1{
     text-align: center;
     color: white;
+    font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; 
 }
 
 h2{
@@ -87,4 +88,21 @@ li img{
 .lugar{
     color: grey;
     text-transform: uppercase;
+}
+/*  --Formularios-- */
+#contacto{
+    width: 250px;
+    margin: 0 auto;
+    
+}
+input, select{
+    display: block;
+    width: 95%;
+    background-color: #ccced0;
+    margin-bottom: 10px;
+}
+
+input[type=submit], input[type=reset]{
+    display: inline;
+    width: 122px;
 }
