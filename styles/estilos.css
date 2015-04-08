@@ -84,6 +84,20 @@ h1, h2, h3, h4 {
     margin: 0px auto;
 }
 
+@media all and (max-width: 400px){
+    img{
+        margin: auto;
+        min-width: 85%;
+    }
+    video{
+        display: inline-block;
+        min-width: 100%;
+    }
+    header li{
+        padding: 0.5%;
+    }
+}
+
 li img {
     width: 50px;
     vertical-align: middle;
