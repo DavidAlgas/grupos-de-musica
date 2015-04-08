@@ -1,78 +1,79 @@
-body{
-    background-color: #490A3D; 
+body {
+    background-color: #490A3D;
     font-size: 'Expletus Sans';
 }
 
-header .centrado{
+header .centrado {
     width: 100%;
     background-color: #E97F05;
     margin: 0 auto;
-    border:0;
+    border: 0;
     padding-left: 10px;
     padding-right: 5px;
 }
 
-header{
-    background-color: #BD1550; 
+header {
+    background-color: #BD1550;
     height: 120px;
 }
 
-header h1{
+header h1 {
     text-align: center;
     color: white;
 }
 
-header ul{
+header ul {
     margin-top: 0;
     padding: 0px;
 }
 
-header li{
+header li {
     display: inline;
     list-style-type: none;
     padding: 5px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
     color: white;
 }
 
-.centrado{
+.centrado {
     width: 980px;
     background-color: #F8CA00;
     margin: 0 auto;
-    border:0;
+    border: 0;
     padding-left: 10px;
     padding-right: 5px;
     padding: 5px 10px;
 }
 
-h1{
+h1 {
     text-align: center;
     color: white;
-    font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; 
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-weight: 400;
 }
 
-h2{
+h2 {
     color: #E97F05;
     border-bottom: 2px solid #E97F05;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     color: #E97F05;
 }
 
-.logo{
+.logo {
     width: 447px;
     display: block;
     margin: 0px auto;
-    
 }
 
-li img{
+li img {
     width: 50px;
     height: auto;
     vertical-align: middle;
@@ -82,28 +83,88 @@ li img{
     background-color: grey;
 }
 
-.cantantes{
+.cantantes {
     list-style-type: none;
 }
 
-.lugar{
+.lugar {
     color: grey;
     text-transform: uppercase;
 }
 /*  --Formularios-- */
-#contacto{
+
+#contacto {
     width: 250px;
     margin: 0 auto;
-    
 }
-input, select{
+
+input, select {
     display: block;
     width: 95%;
     background-color: #ccced0;
     margin-bottom: 10px;
 }
 
-input[type=submit], input[type=reset]{
+input[type=submit], input[type=reset] {
     display: inline;
     width: 122px;
+}
+
+.social {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    
+    left: 0;
+    /* Establecemos la barra en la izquierda */
+    
+    top: 200px;
+    /* Bajamos la barra 200px de arriba a abajo */
+    
+    z-index: 2000;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+/* Establecemos los colores de cada red social, aprovechando su class */
+
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li .icon-googleplus {
+    background: #d95232;
+}
+
+.social ul li .icon-pinterest {
+    background: #ae181f;
+}
+
+.social ul li .icon-mail {
+    background: #666666;
+}
+
+.social ul li a:hover {
+    background: #000;
+    /* Cambiamos el fondo cuando el usuario pase el mouse */
+    
+    padding: 10px 30px;
+    /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 }
